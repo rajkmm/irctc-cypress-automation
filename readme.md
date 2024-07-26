@@ -213,21 +213,30 @@ npx cypress run --headed --no-exit # <---- Make Sure You Run This Command From C
 ## To run this on Window system you need NodeJS And Python in your system.
 > [!NOTE] 
 > ```
-> This will run the booking steps but you have to enter the captch manully while login and booking and other stuff work fine.
+Due to low dependency in Python Environment, have to enter the catch manually
+while login and booking and other stuff works fine.
 > ```
-```
+### You have oto install Python and NodeJS from their offical website or from microsoft store.(Latest version)
+Now donwload the reposirty from the github and unzip it based on your location.
 
-- You have oto install Python and NodeJS from their offical website or from microsoft store.(Latest version)
-- Now donwload the reposirty from the github and unzip it based on your location.
-- Edit the passanger and other details from the passenger_data.json below is the file location and save it.
+### Edit the passanger and other details from the passenger_data.json below is the file location and save it.
+
 > ```
 > irctc-cypress-automation-main\cypress\fixtures\passenger_data.json
 > ```
 ```
+> To enter **CAPTCHA** manually, then change `MANUAL_CAPTCHA` to `true` in `cypress.env.json`
 
+```
+{
+    "USERNAME": "yourusername",
+    "PASSWORD": "yourpassword",
+    "MANUAL_CAPTCHA": false
+}
+```
 
 - Now Open CMD as administator
-###Enter the below commond
+### Enter the below commond
 ```
 python3 -m venv .venv # <---- This will create a Python Enviorment in your directoery.
 ```
