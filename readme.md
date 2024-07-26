@@ -247,7 +247,8 @@ python3 -m venv .venv # <---- This will create a Python Enviorment in your direc
 
   ![image](https://github.com/user-attachments/assets/f2d73727-74aa-46a8-93ff-2e54bc6b25a5)
 
-- Now locate to requirements.txt file from cmd
+- Now locate to requirements.txt file from cmd 
+irctc-cypress-automation-main\irctc-captcha-solver
 ![image](https://github.com/user-attachments/assets/de323f2e-661c-469a-97f7-9ec9f10dd745)
 
 ### Then run all requirements by pasting below command.
