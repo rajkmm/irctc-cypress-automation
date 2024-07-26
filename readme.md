@@ -262,7 +262,7 @@ python app.py ""
 ```
 ![image](https://github.com/user-attachments/assets/cff0546a-70f0-43aa-a807-f797ee19f398)
 
-Now back from the directorty by cd ..  
+Now back from the directory by cd ..  
 ![image](https://github.com/user-attachments/assets/f90d4aa7-7bd5-4105-af4a-120a12d6dbd1)
 
 ### Last Step That's It...........
