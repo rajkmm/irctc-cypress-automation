@@ -210,16 +210,17 @@ npm install # <---- Make Sure You Run This Command From Code Folder.
 npx cypress run --headed --no-exit # <---- Make Sure You Run This Command From Code Folder. 
 ```
 
-## To run this on Window system you need NodeJS And Python in your system.
+## To run this on Window system you need Node.js And Python in your system.
 > [!NOTE] 
 > ```
-Due to low dependency in Python Environment, have to enter the catch manually
-while login and booking and other stuff works fine.
+Due to low dependency in Python Environment, have to enter the catch manually while login and booking and other stuff works fine.
 > ```
-### You have oto install Python and NodeJS from their offical website or from microsoft store.(Latest version)
-Now donwload the reposirty from the github and unzip it based on your location.
+```
 
-### Edit the passanger and other details from the passenger_data.json below is the file location and save it.
+You have to install Python and Node.js from their official website or from Microsoft store.(Latest version)
+Now download the repository from the GitHub and unzip it based on your location.
+
+### Edit the passenger and other details from the passenger_data.json below is the file location and save it.
 
 > ```
 > irctc-cypress-automation-main\cypress\fixtures\passenger_data.json
@@ -235,7 +236,7 @@ Now donwload the reposirty from the github and unzip it based on your location.
 }
 ```
 
-- Now Open CMD as administator
+- Now Open CMD as administator.
 ### Enter the below commond
 ```
 python3 -m venv .venv # <---- This will create a Python Enviorment in your directoery.
@@ -246,10 +247,10 @@ python3 -m venv .venv # <---- This will create a Python Enviorment in your direc
 
   ![image](https://github.com/user-attachments/assets/f2d73727-74aa-46a8-93ff-2e54bc6b25a5)
 
-- Now locate to requirements.txt file in cmd
+- Now locate to requirements.txt file from cmd
 ![image](https://github.com/user-attachments/assets/de323f2e-661c-469a-97f7-9ec9f10dd745)
 
-#### Then run all requirements by pasting below command.
+### Then run all requirements by pasting below command.
 ```
 pip install -r requirements.txt # <---- Make Sure You Run This Command From Code Folder. 
 ```
