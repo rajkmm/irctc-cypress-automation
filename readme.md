@@ -213,12 +213,12 @@ npx cypress run --headed --no-exit # <---- Make Sure You Run This Command From C
 ## To run this on Window system you need Node.js And Python in your system.
 > [!NOTE] 
 > ```
-Due to low dependency in Python Environment, have to enter the catch manually while login and booking and other stuff works fine.
+> Due to low dependency in Python Environment, have to enter the catch manually while login and booking and other stuff works fine.
 > ```
 ```
 
-You have to install Python and Node.js from their official website or from Microsoft store.(Latest version)
-Now download the repository from the GitHub and unzip it based on your location.
+-You have to install Python and Node.js from their official website or from Microsoft store.(Latest version)
+-Now download the repository from the GitHub and unzip it based on your location.
 
 ### Edit the passenger and other details from the passenger_data.json below is the file location and save it.
 
